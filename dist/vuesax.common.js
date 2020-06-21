@@ -12649,7 +12649,7 @@ function _typeof(obj) {
       var min = max - this.maxItemsx;
 
       if (!this.searchx || this.sst) {
-        this.datax = this.sst ? this.data : this.pagination ? this.getItems(min, max) : this.sortItems(this.data) || [];
+        this.datax = this.pagination ? this.getItems(min, max) : this.sortItems(this.data) || [];
       } else {
         this.datax = this.pagination ? this.getItemsSearch(min, max) : this.getItemsSearch(min, max) || [];
       }
@@ -13853,7 +13853,6 @@ var vsRowvue_type_template_id_517f8bed_lang_html_staticRenderFns = []
 // CONCATENATED MODULE: ./src/layout/vsRow/vsRow.vue?vue&type=template&id=517f8bed&lang=html&
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-plugin-babel/node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-plugin-babel/node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/layout/vsRow/vsRow.vue?vue&type=script&lang=js&
-
 
 //
 //
