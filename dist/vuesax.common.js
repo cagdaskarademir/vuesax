@@ -12649,7 +12649,7 @@ function _typeof(obj) {
       var min = max - this.maxItemsx;
 
       if (!this.searchx || this.sst) {
-        this.datax = this.pagination ? this.getItems(min, max) : this.sortItems(this.data) || [];
+        this.datax = this.sst ? this.data : this.pagination ? this.getItems(min, max) : this.sortItems(this.data) || [];
       } else {
         this.datax = this.pagination ? this.getItemsSearch(min, max) : this.getItemsSearch(min, max) || [];
       }
